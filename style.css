@@ -1,0 +1,107 @@
+body, body *{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px;
+  font-size: 14px;
+}
+
+audio {
+  display: block;
+}
+
+form {
+
+}
+
+input {
+  font-size: 16px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid #898989;
+  padding: 4px;
+}
+
+input[type=submit] {
+  background-color: honeydew;
+  cursor: pointer;
+}
+
+input[type=text] {
+  background-color: #fff;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+.hider{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  background-color: black;
+  opacity: .5;
+  z-index: 10;
+
+}
+
+.open-voice-box{
+  position: relative;
+  width: 180px;
+  height: 90px;
+  background-color: red;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+}
+
+.center{
+  width: 500px;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  z-index: 20;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+}
+
+.close{
+  font-size: 2em!important;
+}
+
+.busca{
+  width: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#track-list{
+  border-style: dotted;
+  border-color: #ddd;
+  border-width: thin;
+  overflow: auto;
+  height: 300px;
+  width: auto;
+  overflow-x: hidden;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 18px;
+}
+
+form{
+      height: 50px;
+}
